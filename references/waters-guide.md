@@ -1,6 +1,52 @@
 # Przewodnik po łowiskach — Suwalszczyzna / Mazury
 
-## Jeziora
+## Nasze łowiska (okolice Orzechówka / Olecko)
+
+### Bagienko za domem
+- **Typ:** mały zbiornik / rozlewisko, ~500 m pieszo od domu
+- **Gatunki:** szczupak, okoń
+- **Specyfika:** płytkie, zarośnięte trzciną, osłonięte od wiatru (zwłaszcza N). Dno muliste, lilie wodne.
+- **Sektory:**
+  - **A (wejście)** — łatwiejszy dostęp, dobre na rozgrzewkę
+  - **B (cypel)** — syn tu brał, lepsze stanowisko na szczupaka
+- **Najlepsza metoda:** weightless rig (offset 4/0 + guma) rano. Obrotówka wzdłuż trzciny.
+- **Uwagi:** Idealne na krótkie sesje poranne z synem (blisko, osłonięte, ryba jest)
+
+### Jezioro Dworackie
+- **Typ:** jezioro, ~20 min autem z Orzechówki
+- **Gatunki:** szczupak, okoń, sandacz
+- **Specyfika:** głębsze partie wymagają jiga. Cypel zachodni — dobra miejscówka.
+- **Strona S** osłonięta od wiatru N — dobra opcja przy silnym wietrze.
+- **Uwagi:** Warto na dłuższą wyprawę, potencjał na sandacza
+
+### Jezioro Świętajno
+- **Typ:** jezioro, okolice Olecka
+- **Gatunki:** szczupak, sandacz, okoń
+- **Uwagi:** _do sprawdzenia — zaplanować rekonesans_
+
+### Jezioro Oleckie Wielkie
+- **Typ:** jezioro miejskie, Olecko
+- **Gatunki:** szczupak, okoń, leszcz
+- **Specyfika:** dostępne, blisko miasta, łatwy dojazd
+- **Uwagi:** _do uzupełnienia po wizytach_
+
+### Jezioro Dobskie
+- **Typ:** jezioro, okolice Olecka
+- **Gatunki:** szczupak, sandacz
+- **Uwagi:** _do sprawdzenia_
+
+### Jezioro Muliste
+- **Typ:** jezioro, okolice
+- **Uwagi:** _do sprawdzenia — nazwa obiecująca dla szczupaka_
+
+### Staw sąsiada
+- **Typ:** staw prywatny, blisko domu
+- **Gatunki:** okoń, karaś
+- **Uwagi:** dostępność do potwierdzenia z sąsiadem
+
+---
+
+## Jeziora regionalne (dalsze wyprawy)
 
 ### Hańcza
 - **Typ:** najgłębsze jezioro w Polsce (108,5 m!)
