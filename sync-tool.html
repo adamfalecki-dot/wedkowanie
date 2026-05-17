@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sync memory.md — Wędkowanie</title>
+<style>
+  body { font-family: system-ui; max-width: 600px; margin: 2rem auto; padding: 0 1rem; background: #0a1628; color: #e0e0e0; }
+  h1 { font-size: 1.3rem; color: #64b5f6; }
+  textarea { width: 100%; height: 50vh; background: #0d2137; color: #e0e0e0; border: 1px solid #1565c0; border-radius: 8px; padding: 12px; font-family: monospace; font-size: 14px; resize: vertical; }
+  button { width: 100%; padding: 14px; margin-top: 12px; background: #64b5f6; color: #0a1628; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: bold; cursor: pointer; }
+  button:active { background: #42a5f5; }
+  #status { margin-top: 12px; padding: 10px; border-radius: 8px; text-align: center; display: none; }
+  .ok { background: #1b3a2d; color: #64b5f6; display: block !important; }
+  .err { background: #4a1526; color: #ff6b6b; display: block !important; }
+  p { font-size: 0.85rem; color: #888; }
+</style>
+</head>
+<body>
+<h1>Sync memory.md</h1>
+<p>Wklej zaktualizowaną treść memory.md i kliknij Sync.</p>
+<textarea id="content" placeholder="# Dziennik wędkarski — sezon 2026..."></textarea>
+<button onclick="sync()">Sync do GitHub</button>
+<div id="status"></div>
+<script>
+async function sync(){
+  const s=document.getElementById('status');
+  const c=document.getElementById('content').value.trim();
+  if(!c){s.className='err';s.textContent='Wklej treść!';return}
+  s.className='';s.style.display='block';s.textContent='Wysyłam...';
+  try{
+    const r=await fetch('https://hook.eu2.make.com/cvs7kvbto7vwamf34t5wpsrrayhk3l3x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({content:c})});
+    if(r.ok){s.className='ok';s.textContent='Zsynchronizowano z GitHub.'}
+    else{s.className='err';s.textContent='Błąd: '+r.status}
+  }catch(e){s.className='err';s.textContent='Błąd sieci: '+e.message}
+}
+</script>
+</body>
+</html>
